@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#wilderness:has_surface_vegetation",
+  "step": "top_layer_modification",
+  "spawn_overrides": {},
+  "start_pool": "wilderness:biome_additions/structure/firefly_bush",
+  "size": 6,
+  "start_height": {
+    "below_top": 1
+  },
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false
+}

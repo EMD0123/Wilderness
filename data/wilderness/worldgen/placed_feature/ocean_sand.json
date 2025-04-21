@@ -1,0 +1,185 @@
+{
+  "feature": {
+    "type": "minecraft:disk",
+    "config": {
+      "half_height": 2,
+      "radius": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 8,
+        "min_inclusive": 4
+      },
+      "state_provider": {
+        "fallback": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "sand"
+          }
+        },
+        "rules": [
+          {
+            "if_true": {
+              "type": "minecraft:matching_blocks",
+              "blocks": "#minecraft:replaceable",
+              "offset": [
+                0,
+                -1,
+                0
+              ]
+            },
+            "then": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "sandstone"
+              }
+            }
+          }
+        ]
+      },
+      "target": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                2,
+                0
+              ],
+              "blocks": "sand"
+            }
+          },
+          {
+            "type": "minecraft:any_of",
+            "predicates": [
+              {
+                "type": "minecraft:any_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:matching_block_tag",
+                    "offset": [
+                      0,
+                      1,
+                      0
+                    ],
+                    "tag": "minecraft:replaceable"
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      1,
+                      0
+                    ],
+                    "blocks": "sand"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:kelp",
+                  "minecraft:seagrass",
+                  "minecraft:tall_seagrass"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:dirt",
+              "minecraft:grass_block",
+              "minecraft:podzol",
+              "minecraft:coarse_dirt",
+              "minecraft:mycelium",
+              "minecraft:gravel",
+              "minecraft:clay"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 256
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -8,
+        "max_inclusive": 8
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:any_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_fluids",
+            "offset": [
+              1,
+              0,
+              0
+            ],
+            "fluids": "minecraft:water"
+          },
+          {
+            "type": "minecraft:matching_fluids",
+            "offset": [
+              -1,
+              0,
+              0
+            ],
+            "fluids": "minecraft:water"
+          },
+          {
+            "type": "minecraft:matching_fluids",
+            "offset": [
+              0,
+              0,
+              1
+            ],
+            "fluids": "minecraft:water"
+          },
+          {
+            "type": "minecraft:matching_fluids",
+            "offset": [
+              0,
+              0,
+              -1
+            ],
+            "fluids": "minecraft:water"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          1,
+          0
+        ],
+        "blocks": "air"
+      }
+    }
+  ]
+}

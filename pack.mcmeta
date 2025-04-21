@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 71,
+    "supported_formats": [
+      71,
+      71
+    ],
+    "description": "Vanilla style improvements for biome decoration"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "lithostitched:remove_structure_set_entries",
+  "structure_sets": "wilderness:biome_additions/lily_pad",
+  "structures": [
+    "wilderness:biome_additions/lily_pad"
+  ]
+}

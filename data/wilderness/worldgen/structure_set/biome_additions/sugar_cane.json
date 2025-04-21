@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "wilderness:biome_additions/sugar_cane",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 0,
+    "spacing": 1,
+    "separation": 0
+  }
+}

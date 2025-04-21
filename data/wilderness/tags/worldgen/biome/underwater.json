@@ -1,0 +1,17 @@
+{
+  "values": [
+    "#wilderness:has_surface_vegetation",
+    "#minecraft:is_river",
+    "#minecraft:is_ocean",
+    "#minecraft:is_beach",
+    "#minecraft:has_structure/ruined_portal_swamp",
+    {
+      "id": "#c:is_aquatic",
+      "required": false
+    },
+    {
+      "id": "#c:is_swamp",
+      "required": false
+    }
+  ]
+}

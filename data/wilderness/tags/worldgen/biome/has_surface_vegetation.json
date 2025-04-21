@@ -1,0 +1,37 @@
+{
+  "values": [
+    "#minecraft:is_mountain",
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "#minecraft:is_forest",
+    "#minecraft:is_jungle",
+    "#minecraft:is_taiga",
+    "#minecraft:is_savanna",
+    "#minecraft:is_hill",
+    "#minecraft:has_structure/ruined_portal_swamp",
+    {
+      "id": "#c:is_dense_vegetation/overworld",
+      "required": false
+    },
+    {
+      "id": "#c:is_floral",
+      "required": false
+    },
+    {
+      "id": "#c:is_flower_forest",
+      "required": false
+    },
+    {
+      "id": "#c:is_plains",
+      "required": false
+    },
+    {
+      "id": "#c:is_birch_forest",
+      "required": false
+    },
+    {
+      "id": "#c:is_swamp",
+      "required": false
+    }
+  ]
+}

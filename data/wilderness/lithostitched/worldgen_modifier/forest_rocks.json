@@ -1,0 +1,6 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "#wilderness:forested",
+  "features": "wilderness:forest_rocks",
+  "step": "underground_ores"
+}

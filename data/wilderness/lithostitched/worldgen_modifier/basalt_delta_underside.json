@@ -1,0 +1,6 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": "wilderness:basalt_delta_underside",
+  "step": "raw_generation"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "#minecraft:is_ocean",
+  "features": "wilderness:ocean_sand",
+  "step": "local_modifications"
+}

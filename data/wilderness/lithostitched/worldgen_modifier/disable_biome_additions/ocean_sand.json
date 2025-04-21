@@ -1,0 +1,7 @@
+{
+  "type": "lithostitched:remove_structure_set_entries",
+  "structure_sets": "wilderness:biome_additions/ocean_sand",
+  "structures": [
+    "wilderness:biome_additions/ocean_sand"
+  ]
+}

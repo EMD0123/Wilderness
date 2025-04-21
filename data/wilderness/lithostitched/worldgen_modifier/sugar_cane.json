@@ -1,0 +1,6 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "wilderness:sugar_cane",
+  "step": "vegetal_decoration"
+}
