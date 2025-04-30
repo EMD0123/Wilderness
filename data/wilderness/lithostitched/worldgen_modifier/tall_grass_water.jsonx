@@ -1,6 +1,0 @@
-{
-  "type": "lithostitched:add_features",
-  "biomes": "#wilderness:has_surface_vegetation",
-  "features": "wilderness:tall_grass_water",
-  "step": "vegetal_decoration"
-}

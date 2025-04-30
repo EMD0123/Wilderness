@@ -1,7 +1,0 @@
-{
-  "type": "lithostitched:remove_structure_set_entries",
-  "structure_sets": "wilderness:biome_additions/dry_grass",
-  "structures": [
-    "wilderness:biome_additions/dry_grass"
-  ]
-}

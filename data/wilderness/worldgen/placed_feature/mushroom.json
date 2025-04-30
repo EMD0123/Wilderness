@@ -21,9 +21,7 @@
               "blocks": [
                 "air",
                 "minecraft:short_grass",
-                "fern",
-                "bush",
-                "leaf_litter"
+                "fern"
               ]
             }
           }
@@ -49,9 +47,7 @@
               "blocks": [
                 "air",
                 "minecraft:short_grass",
-                "fern",
-                "bush",
-                "leaf_litter"
+                "fern"
               ]
             }
           }
